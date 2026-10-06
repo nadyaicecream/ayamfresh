@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AYAM FRESH - Ayam potong segar, bersih, dan siap dimasak.">
+  <title>AYAM FRESH — Ayam Potong Segar</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="brand" href="#home"><span>🐔</span> AYAM<span>FRESH</span></a>
+    <nav>
+      <a href="#produk">Produk</a>
+      <a href="#keunggulan">Keunggulan</a>
+      <a href="#cara-pesan">Cara Pesan</a>
+    </nav>
+    <a class="nav-btn" href="#pesan">Pesan Sekarang</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">FRESH • BERSIH • SIAP MASAK</div>
+        <h1>Ayam potong <em>segar</em> untuk masakan terbaikmu.</h1>
+        <p>Ayam pilihan yang diproses dengan bersih dan dikemas rapi. Cocok untuk kebutuhan rumah, warung, katering, dan acara.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#pesan">🛒 Pesan Ayam</a>
+          <a class="btn ghost" href="#produk">Lihat Produk ↓</a>
+        </div>
+        <div class="mini-info">
+          <span>✓ Diproses fresh</span><span>✓ Bersih & higienis</span><span>✓ Bisa pesan banyak</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="blob"></div>
+        <div class="chicken-card">
+          <div class="chicken-illustration">
+            <div class="body">🐔</div>
+            <div class="fresh-tag">FRESH<br><small>TODAY</small></div>
+          </div>
+          <div class="card-caption">
+            <strong>Ayam Potong Segar</strong>
+            <span>Siap diolah hari ini</span>
+          </div>
+        </div>
+        <div class="floating price">Mulai <b>Rp35K</b>/kg</div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>Fresh</strong><span>diproses harian</span></div>
+      <div><strong>Higienis</strong><span>dikemas rapi</span></div>
+      <div><strong>Fleksibel</strong><span>ecer & grosir</span></div>
+      <div><strong>Praktis</strong><span>siap dimasak</span></div>
+    </section>
+
+    <section class="section" id="produk">
+      <div class="section-head">
+        <div><div class="eyebrow">PILIHAN PRODUK</div><h2>Menu ayam hari ini</h2></div>
+        <p>Pilih sesuai kebutuhan. Harga dapat disesuaikan dengan jumlah pesanan.</p>
+      </div>
+      <div class="products">
+        <article class="product featured">
+          <div class="product-image chicken-whole"><span>🐔</span></div>
+          <div class="product-body"><span class="pill">BEST SELLER</span><h3>Ayam Potong Utuh</h3><p>Ayam utuh, bersih, dan siap diolah.</p><div class="product-bottom"><strong>Rp35.000 <small>/kg</small></strong><button onclick="order('Ayam Potong Utuh')">Pesan</button></div></div>
+        </article>
+        <article class="product">
+          <div class="product-image chicken-cut"><span>🍗</span></div>
+          <div class="product-body"><span class="pill green">PRAKTIS</span><h3>Ayam Potong</h3><p>Potongan sesuai kebutuhan masakan.</p><div class="product-bottom"><strong>Rp37.000 <small>/kg</small></strong><button onclick="order('Ayam Potong')">Pesan</button></div></div>
+        </article>
+        <article class="product">
+          <div class="product-image chicken-fillet"><span>🥩</span></div>
+          <div class="product-body"><span class="pill orange">PREMIUM</span><h3>Fillet Ayam</h3><p>Daging fillet tanpa tulang, siap masak.</p><div class="product-bottom"><strong>Rp48.000 <small>/kg</small></strong><button onclick="order('Fillet Ayam')">Pesan</button></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="why" id="keunggulan">
+      <div class="why-art"><div class="stamp">100%<br><small>FRESH</small></div><div class="big-chicken">🍗</div></div>
+      <div class="why-copy">
+        <div class="eyebrow">KENAPA AYAM FRESH?</div>
+        <h2>Segar sampai ke dapur kamu.</h2>
+        <div class="features">
+          <div><b>01</b><span><strong>Diproses fresh</strong><br>Stok diprioritaskan untuk pesanan hari berjalan.</span></div>
+          <div><b>02</b><span><strong>Bersih & higienis</strong><br>Penanganan dan pengemasan dibuat serapi mungkin.</span></div>
+          <div><b>03</b><span><strong>Pesanan fleksibel</strong><br>Cocok untuk kebutuhan rumah maupun pesanan jumlah banyak.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-section" id="cara-pesan">
+      <div class="order-box" id="pesan">
+        <div>
+          <div class="eyebrow">MAU PESAN?</div>
+          <h2>Ayam segar, tinggal chat.</h2>
+          <p>Kirim jenis ayam dan jumlah yang kamu butuhkan. Kami akan membantu konfirmasi ketersediaan dan total pesanan.</p>
+        </div>
+        <a class="btn whatsapp" href="https://wa.me/6281234567890?text=Halo%20kak%2C%20saya%20mau%20pesan%20ayam%20potong." target="_blank">💬 Chat WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><a class="brand" href="#home"><span>🐔</span> AYAM<span>FRESH</span></a><p>Ayam potong segar untuk kebutuhan harianmu.</p></div>
+    <div class="footer-right"><span>© 2026 AYAM FRESH</span><a href="#home">Kembali ke atas ↑</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
